@@ -1,0 +1,53 @@
+.container
+{   
+     background-color: rgba(0, 255, 255, 0.367);
+     
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    width: 40%;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+button{
+    font-size: 2rem;
+    grid-column:span 2;
+    height: 40px;
+}
+
+div{
+    justify-content: center;
+    background-color: rgba(165, 42, 42, 0.221);
+   width: 60%;
+   margin: auto;
+   border-color: black;
+   border-style: solid;
+}
+h1{
+    -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: black;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(30, 46, 76, 0.377);
+}
+
+body{
+    background: url("wall.webp");
+    
+}
+
+.p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
